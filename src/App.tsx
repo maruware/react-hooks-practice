@@ -15,8 +15,8 @@ class App extends Component {
         <div>
           <h2>Context Counter</h2>
           <Count />
-          <UpButton />
-          <DownButton />
+          <UpButton num={3} />
+          <DownButton num={2} />
 
           <Count />
         </div>
