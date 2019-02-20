@@ -6,6 +6,7 @@ import Count from './ContextCounter/Count'
 import UpButton from './ContextCounter/UpButton'
 import DownButton from './ContextCounter/DownButton'
 import StateCounter from './StateCounter'
+import EffectUserList from './EffectUserList'
 
 class App extends Component {
   render() {
@@ -25,6 +26,12 @@ class App extends Component {
         <div>
           <h2>State Counter</h2>
           <StateCounter />
+        </div>
+
+        <hr />
+        <div>
+          <h2>EffectUserList</h2>
+          <EffectUserList />
         </div>
       </Provider>
     )
